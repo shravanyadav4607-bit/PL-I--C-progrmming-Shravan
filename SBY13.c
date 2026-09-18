@@ -16,27 +16,27 @@ int main()
  scanf("%d", &choice);
  switch(choice)
 {
- case1:
+ case 1:
     printf("Enter two numbers:");
     scanf("%f%f",&num1,&num2);
     result=num1+num2;
     printf("Result=%.2f\n",result);
     break;
-case2:
+ case 2:
     printf("Enter two numbers:");
     scanf("%f%f",&num1,&num2);
     result=num1-num2;
     printf("Result=%.2f\n",result);
     break;
 
-case3:
+ case 3:
     printf("Enter two numbers:");
     scanf("%f%f",&num1,&num2);
     result=num1*num2;
     printf("Result=%.2f\n",result);
     break;
 
-case4:
+ case 4:
     printf("Enter two numbers:");
     scanf("%f%f",&num1,&num2);
     
@@ -46,7 +46,7 @@ else
    printf("Error!  Division by zero is not allowed.\n");
    break;
 
-case5:
+ case 5:
     printf("Exiting calculator...\n");
     break;
    
